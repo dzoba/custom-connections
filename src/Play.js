@@ -111,7 +111,7 @@ function Play() {
       ) : (
         <>
           {solvedCategories.map((category, index) => (
-            <div key={index} className="bg-gray-300 p-4 rounded-md mb-2 flex justify-between">
+            <div key={index} className="bg-gray-100 p-4 rounded-md mb-2 flex justify-between border border-gray-400">
               <span>{category.title}</span>
               <span>{category.words.join(', ')}</span>
             </div>
